@@ -7,8 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Daily AI Blog</h1>
+    <header class="site-header">
+        <div class="header-content">
+            <p class="eyebrow">feature-header</p>
+            <h1>Daily AI Blog</h1>
+            <p class="tagline">Fresh daily posts on AI trends, tools, and ethical insights.</p>
+            <nav class="main-nav" aria-label="Primary navigation">
+                <a href="#">Home</a>
+                <a href="#">Trends</a>
+                <a href="#">Tools</a>
+                <a href="#">Ethics</a>
+                <a href="#">About</a>
+            </nav>
+            <div class="header-controls">
+                <div class="search-wrap">
+                    <input type="search" placeholder="Search AI blogs..." aria-label="Search AI blogs">
+                    <button type="button">Search</button>
+                </div>
+                <div class="category-filters" aria-label="Category filters">
+                    <span>Categories:</span>
+                    <button type="button" class="filter active">All</button>
+                    <button type="button" class="filter">AI Trends</button>
+                    <button type="button" class="filter">Tools</button>
+                    <button type="button" class="filter">Ethics</button>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
         <article>
